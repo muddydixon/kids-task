@@ -1,0 +1,7 @@
+port: 8080
+datadir: data
+log:
+  configure:
+    appenders:
+      - category: system
+        type: console

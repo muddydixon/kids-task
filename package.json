@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node lib/server.js",
-    "jsx:build": "browserify -o public/js/web.js -t [ babelify --presets [ es2015 react ] ] lib/web.js",
-    "jsx:watch": "watchify -o public/js/web.js -v -d -t [ babelify --presets [ es2015 react ] ] lib/web.js"
+    "jsx:build": "browserify -o docs/js/web.js -t [ babelify --presets [ es2015 react ] ] lib/web.js",
+    "jsx:watch": "watchify -o docs/js/web.js -v -d -t [ babelify --presets [ es2015 react ] ] lib/web.js"
   },
   "keywords": [],
   "author": "",
